@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo {
+    width: 15rem;
+}
+
+.container {
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+@media (max-width: 640px) {
+    .logo {
+        width: 10rem;
+    }
+    .container {
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+    }
+}
+
+@media (max-width: 361px) {
+    .logo {
+        width: 8rem;
+    }
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
